@@ -66,7 +66,7 @@ function searchEmployees() {
 }
 
 searchInput = document.querySelector('.searchEBtn');
-searchInput.addEventListener('click', (event) => {
+searchInput.addEventListener('keyup', (event) => {
     searchEmployees();
 }
 );

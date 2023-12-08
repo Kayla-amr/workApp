@@ -65,8 +65,8 @@ function searchEmployees() {
     viewEmployees(filteredEmployees);
 }
 
-searchInput = document.querySelector('.searchEBtn');
-searchInput.addEventListener('click', (event) => {
+searchInput = document.querySelector('.searchE');
+searchInput.addEventListener('keyup', (event) => {
     searchEmployees();
 }
 );
