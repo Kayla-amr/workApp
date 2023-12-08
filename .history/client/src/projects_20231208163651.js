@@ -68,7 +68,6 @@ searchInput.addEventListener('click', (event) => {
     searchProjects();
 }
 );
-
 function viewProjects(projects) {
     projectList.innerHTML = '';
     projects.forEach(project => {
