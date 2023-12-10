@@ -1,3 +1,4 @@
+server.js
 const bodyParser = require('body-parser');
 const express = require('express');
 const app = express();
@@ -250,3 +251,4 @@ app.delete('/api/projects/:id', (req, res) => {
 
 
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
+

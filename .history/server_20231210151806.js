@@ -205,8 +205,6 @@ app.post('/api/projects', (req, res) => {
         id: projects.length + 1,
         name: req.body.name,
         description: req.body.description,
-        dueDate: req.body.dueDate,
-        status: false,
         equipment: req.body.equipment,
         employees: req.body.employees,
         cost: req.body.cost
